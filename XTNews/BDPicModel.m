@@ -13,13 +13,13 @@
 + (instancetype)shareWithDic:(NSDictionary *)dictionary
 {
     BDPicModel *model = [[BDPicModel alloc] init];
-    model.width = [dictionary objectForKey:@"width"];
-    model.height = [dictionary objectForKey:@"height"];
-    model.thumbURL = [dictionary objectForKey:@"thumburl2"];
-    model.origionURL = [dictionary objectForKey:@"objurl"];
-    model.title = [dictionary objectForKey:@"frompagetitle"];
-    model.size = [dictionary objectForKey:@"size"];
-    model.type = [dictionary objectForKey:@"type"];
+    model.width       = [dictionary objectForKey:@"width"];
+    model.height      = [dictionary objectForKey:@"height"];
+    model.thumbURL    = [dictionary objectForKey:@"thumburl2"];
+    model.origionURL  = [dictionary objectForKey:@"objurl"];
+    model.title       = [dictionary objectForKey:@"frompagetitle"];
+    model.size        = [dictionary objectForKey:@"size"];
+    model.type        = [dictionary objectForKey:@"type"];
     return model;
 }
 
