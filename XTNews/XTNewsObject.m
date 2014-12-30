@@ -18,7 +18,7 @@
     
     NSArray *keys = [dic allKeys];
     
-    if ([keys indexOfObject:@"url_3w"] != NSNotFound) {
+    if ([keys indexOfObject:@"url_3w"] == NSNotFound) {
         
         if ([keys indexOfObject:@"template"] == NSNotFound) {
             
